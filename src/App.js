@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Aboutme from './aboutme'
+import NavBar from './navbar'
+import './aboutme.css'
+import ImageGrid from './imagegrid'
+import './imagegrid.css'
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <NavBar/>
+        <Aboutme/>
+    <ImageGrid/>
+    
     </div>
   );
 }
