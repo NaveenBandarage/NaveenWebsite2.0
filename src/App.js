@@ -6,6 +6,7 @@ import NavBar from './navbar'
 import './aboutme.css'
 import ImageGrid from './imagegrid'
 import './imagegrid.css'
+import SplashScreen from './splashscreen'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </header>
 
       <NavBar/>
+      <SplashScreen/>
         <Aboutme/>
     <ImageGrid/>
     
