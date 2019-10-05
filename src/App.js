@@ -7,6 +7,7 @@ import './aboutme.css'
 import ImageGrid from './imagegrid'
 import './imagegrid.css'
 import SplashScreen from './splashscreen'
+import FooterPart from './footersection/footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <SplashScreen/>
         <Aboutme/>
     <ImageGrid/>
+    <FooterPart/>
     
     </div>
   );
