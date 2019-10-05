@@ -1,6 +1,10 @@
 .AboutMeSection {
 text-align: left;
 }
+.ColoredList{
+    text-align: left;
+    list-style: none;
+}
 
 
 .education {

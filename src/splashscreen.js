@@ -3,6 +3,7 @@ import Typed from 'react-typed';
 const splashScreen = () =>{
 
     return(
+        //need to do more work on this make this the actual home screen
 <div>
                 <Typed
                     strings={['Welcome to my website this is some typing shit']}

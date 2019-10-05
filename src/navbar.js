@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import logo from './naveenlogo.png'
+import PDF from './naveencv_compressed.pdf'
 
 const navbar = () =>{
 
@@ -15,7 +16,7 @@ const navbar = () =>{
                     <li><a href="#AboutMeSection"> About</a></li>
                     <li><a href="/">Projects</a></li>
                     <li><a href="/">Contact</a></li>
-                    <li><a href ="/" target = "_blank">Resume</a></li>
+                    <li><a href ={PDF} target = "_blank">Resume</a></li>
 
                 </ul>
             </div>

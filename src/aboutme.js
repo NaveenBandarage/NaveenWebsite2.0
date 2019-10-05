@@ -15,7 +15,7 @@ const aboutMe = () =>{
                   <li>C</li>
                   <li>Sql</li>
                   </ul>
-             <ul>
+             <ul className="ColoredList">
                  <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
