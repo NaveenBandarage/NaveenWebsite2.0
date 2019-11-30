@@ -6,9 +6,18 @@ const splashScreen = () =>{
         //need to do more work on this make this the actual home screen
 <div>
                 <Typed
-                    strings={['Welcome to my website this is some typing shit']}
+                    strings={["Hey I'm Naveen ;)"]}                     
                     typeSpeed={40}
+                 
                 />
+                                    <br/>
+
+                <Typed
+                strings={["Welcome to my Website!"]} 
+                startDelay={10000} 
+                typeSpeed={40}
+             
+            />
                 <br/>
  
                 <Typed
