@@ -8,8 +8,6 @@ import ImageGrid from './imagegrid'
 import './imagegrid.css'
 import SplashScreen from './splashscreen'
 import ContactMe from './contactMe'
-import Loading from "./loading.js";
-
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // import FooterPart from './footersection/footer';
@@ -75,7 +73,7 @@ class Section extends React.Component {
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -88,17 +86,14 @@ function App() {
         >
           Learn React
         </a>
-
       </header>
-
       <NavBar/>
       <SplashScreen/>
         <Aboutme/>
     <ImageGrid/>
-    <ContactMe/> */}
+    <ContactMe/>
     {/* <FooterPart/>  for some reason this doesn't work properly*/}
     {/* <a onClick={scrollToTop}>To the top!</a> */}
-    <Loading/>
 
     </div>
   );
