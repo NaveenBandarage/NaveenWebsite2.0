@@ -1,11 +1,12 @@
 import React from 'react'
 import Typed from 'react-typed';
+import './splashscreen.css'
 const splashScreen = () =>{
 
     return(
         //need to do more work on this make this the actual home screen
-<div>
-                <Typed
+<div className='TypedStrings'>
+                <Typed 
                     strings={["Hey I'm Naveen ;)"]}                     
                     typeSpeed={40}
                  
@@ -33,9 +34,9 @@ const splashScreen = () =>{
                 </Typed>
                 <div>
 <Typed
-  strings={["Here you can find hardware", "Here you can find software", "Here you can find net tools"]}
-  typeSpeed={50}
-  backSpeed={50}
+  strings={["I'm a coder.", "I'm a Otaku.", "I'm a Developer.","I'm a Sports fan.","I'm a Amateur photographer.",]}
+  typeSpeed={75}
+  backSpeed={100}
   backDelay={1}
   loop
   smartBackspace
