@@ -1,5 +1,7 @@
 import React from 'react'
 import './aboutme.css'
+import PDF from './naveencv_compressed.pdf'
+
 
 const aboutMe = () =>{
 
@@ -14,12 +16,14 @@ const aboutMe = () =>{
                    <li>C++</li>
                   <li>C</li>
                   <li>Sql</li>
+                  <li>Go</li>
                   </ul>
              <ul className="ColoredList">
                  <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
                 <li>React</li>
+                <li>Python</li>
               </ul>
               
                 <h2>Education</h2>
@@ -28,7 +32,8 @@ const aboutMe = () =>{
                  <p>March 2017 - Present</p>
                  <p>Heretaunga College - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>
-                 <h1>Want more information?</h1>         
+                 <h1>Want more information?</h1>  
+                 <p> Click <a href ={PDF}>here.</a></p>       
                 </div>
                 </div>   
 

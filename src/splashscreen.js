@@ -7,21 +7,19 @@ const splashScreen = () =>{
         //need to do more work on this make this the actual home screen
 <div className='TypedStrings'>
                 <Typed 
-                    strings={["Hey I'm Naveen ;)"]}                     
+                    strings={["Hey I'm Naveen!"]}                     
                     typeSpeed={40}
-                 
                 />
                                     <br/>
 
                 <Typed
                 strings={["Welcome to my Website!"]} 
-                startDelay={10000} 
+                startDelay={1000} 
                 typeSpeed={40}
-             
             />
                 <br/>
  
-                <Typed
+                {/* <Typed
                 strings={[
                     'Search for products',
                     'Search for categories',
@@ -31,7 +29,7 @@ const splashScreen = () =>{
                     attr="placeholder"
                     loop >
                     <input type="text"/>
-                </Typed>
+                </Typed> */}
                 <div>
 <Typed
   strings={["I'm a coder.", "I'm a Otaku.", "I'm a Developer.","I'm a Sports fan.","I'm a Amateur photographer.",]}
