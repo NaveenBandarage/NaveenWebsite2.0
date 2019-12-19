@@ -8,9 +8,25 @@ import ImageGrid from './imagegrid'
 import './imagegrid.css'
 import SplashScreen from './splashscreen'
 import ContactMe from './contactMe'
+import Projects from './projects'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 // import FooterPart from './footersection/footer';
+class App extends Component{
+  state = { projects: [] };
+
+  // On load
+  componentDidMount() {
+      this.getProjects();
+  }
+  
+  // Set state with our projects
+  getProjects = () => {
+      fetch('/api/projects')
+          .then(res => res.json())
+          .then(projects => this.setState({projects}));
+  }
+}
 class Section extends React.Component {
 
   constructor(props) {
@@ -70,6 +86,7 @@ class Section extends React.Component {
   }
 
 }
+
 function App() {
   return (
     <div className="App">
@@ -90,6 +107,7 @@ function App() {
       <NavBar/>
       <SplashScreen/>
         <Aboutme/>
+        <Projects/>
     <ImageGrid/>
     <ContactMe/>
     {/* <FooterPart/>  for some reason this doesn't work properly*/}
