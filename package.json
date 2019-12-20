@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "node-fetch": "^2.6.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-fade-in": "^0.1.6",
