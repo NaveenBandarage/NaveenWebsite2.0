@@ -15,6 +15,7 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
+    "dev": "react-scripts start --port $PORT",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
