@@ -8,6 +8,7 @@ import ImageGrid from './imagegrid'
 import './imagegrid.css'
 import SplashScreen from './splashscreen'
 import ContactMe from './contactMe'
+import SocialMediaIcons from 'react-social-media-icons';
 
 
 // import FooterPart from './footersection/footer';
@@ -30,7 +31,9 @@ class App extends Component {
 
   render() {
       const { projects } = this.state;
-
+     
+      
+    
       return (
           <div className="App">
             <NavBar/>
