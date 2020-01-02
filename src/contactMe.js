@@ -25,6 +25,10 @@ const socialMediaIcons = [
         url: 'https://open.spotify.com/user/naveen.bandarage?si=CnApMUV6Rw6lnS5x5PccTAs',
         className: 'fa-spotify',
       },
+      {
+        url: 'https://www.youtube.com/channel/UCuoL1lIDkSIyMKpDgGAUqhA?sub_confirmation=1',
+        className: 'fa-youtube',
+      },
   ];
 
 const ContactMe = ()=>{
