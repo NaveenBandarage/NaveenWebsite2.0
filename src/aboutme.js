@@ -32,8 +32,8 @@ const aboutMe = () =>{
                  <p>March 2017 - Present</p>
                  <p>Heretaunga College - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>
-                 <h1>Want more information?</h1>  
-                 <p> Click <a href ={PDF}>here.</a></p>       
+                 <h1 className="wantMoreInformation">Want more information?</h1>  
+                 <p className="clickhere"> Click <a href ={PDF}>here.</a></p>       
                 </div>
                 </div>   
 
