@@ -10,7 +10,9 @@ const splashScreen = () =>{
                     strings={["Hey I'm Naveen!", "Hey I'm ナヴィーン", "Hey I'm نفين", "Hey I'm 나빈", "Hey I'm Ναβεεν", "Hey I'm Навеен", "Hey I'm 纳温"]}   
                     loop
                     smartBackspace
-                    typeSpeed={40}
+                    typeSpeed={75}
+                    backSpeed={100}
+
                 />
                                     <br/>
 

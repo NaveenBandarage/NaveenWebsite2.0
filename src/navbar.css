@@ -6,10 +6,9 @@
     text-align: left;
     top: 0;
     left: 0;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
        width: 100%;
        background: white;
-       padding: 10px;
    }
    .navbarnav{
        display: flex;
@@ -53,3 +52,4 @@
    .navitems a:active{
        color:  black;
    }
+ 

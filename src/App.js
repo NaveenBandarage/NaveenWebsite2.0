@@ -37,7 +37,7 @@ class App extends Component {
       return (
           <div className="App">
             <NavBar/>
-              <SplashScreen/>
+            <SplashScreen/>
               <Aboutme/>
          <ImageGrid/>
              <ContactMe/>
