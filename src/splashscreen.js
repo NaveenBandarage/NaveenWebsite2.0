@@ -14,13 +14,12 @@ const splashScreen = () =>{
                 />
                                     <br/>
 
-                <Typed
+                {/* <Typed
                 strings={["Welcome to my Website!"]} 
                 startDelay={1000} 
                 typeSpeed={40}
-            />
-                <br/>
- 
+            /> */}
+               
                 {/* <Typed
                 strings={[
                     'Search for products',
