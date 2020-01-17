@@ -29,7 +29,7 @@ const aboutMe = () =>{
               
                 <h2>Education</h2>
                 <div className="education">
-                 <p>Victoria University of Wellington - Bachelor of Engineering with Honours</p>
+                 <p><a href="https://www.wgtn.ac.nz/">Victoria University of Wellington</a> - Bachelor of Engineering with Honours</p>
                  <p>March 2017 - Present</p>
                  <p>Heretaunga College - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>

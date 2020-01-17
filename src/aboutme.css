@@ -1,15 +1,20 @@
 .AboutMeSection {
 text-align: left;
+
 }
 .ColoredList{
-    text-align: left;
     list-style: none;
+}
+.ColoredList li{
+padding: 5px;    display: inline;
+    
 }
 
 
 .education {
-    text-align: left;
+    text-align: center;
 }
+
 .wantMoreInformation{
     text-align: center
 }
