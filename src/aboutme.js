@@ -29,9 +29,9 @@ const aboutMe = () =>{
               
                 <h2>Education</h2>
                 <div className="education">
-                 <p><a href="https://www.wgtn.ac.nz/">Victoria University of Wellington</a> - Bachelor of Engineering with Honours</p>
+                 <p><a href="https://www.wgtn.ac.nz/" target = "_blank">Victoria University of Wellington</a> - Bachelor of Engineering with Honours</p>
                  <p>March 2017 - Present</p>
-                 <p><a href="http://www.heretaunga.school.nz/">Heretaunga College</a> - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
+                 <p><a href="http://www.heretaunga.school.nz/" target = "_blank">Heretaunga College</a> - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>
                  <h1 className="wantMoreInformation">Want more information?</h1>  
                  <p className="clickhere"> Click <a href ={PDF}>here.</a></p>       
