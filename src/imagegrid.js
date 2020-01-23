@@ -6,9 +6,14 @@ import image3 from './image4.JPG'
 
 const imageGrid = () =>{
 
+
     return(
     <div class="row">
-        <p>Test</p>
+
+      <h1>Passion || Projects</h1>
+      <p>Here are a collection of some of the things that I am interested and also the things that I am working on:</p>
+      <h2>Film Photography</h2>
+
   <div class="column">
     <img src={image1}width="100%"></img>
     </div>
@@ -18,6 +23,11 @@ const imageGrid = () =>{
   <div class="column">
   <img src={image3} width="100%"></img>
   </div>
+
+  <div className="otherPhotograpy">
+<h2>Photography</h2>
+  </div>
+  <div></div>
 </div> 
     );
 }
