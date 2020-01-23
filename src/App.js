@@ -34,59 +34,37 @@ class App extends Component {
   render() {
       const { projects } = this.state;
      
-      const Footer = () => {
-        const [githubInfo, setGitHubInfo] = useState({
-          stars: null,
-          forks: null,
-        });
+      // const Footer = () => {
+      //   const [githubInfo, setGitHubInfo] = useState({
+      //     stars: null,
+      //     forks: null,
+      //   });
       
-        useEffect(() => {
-          if (process.env.NODE_ENV !== 'production') {
-            return;
-          }
-          fetch('https://api.github.com/repos/bchiang7/v4')
-            .then(response => response.json())
-            .then(json => {
-              const { stargazers_count, forks_count } = json;
-              setGitHubInfo({
-                stars: stargazers_count,
-                forks: forks_count,
-              });
-            })
-            .catch(e => console.error(e));
-        }, []);
-    
-      return (
+      //   useEffect(() => {
+      //     if (process.env.NODE_ENV !== 'production') {
+      //       return;
+      //     }
+      //     fetch('https://api.github.com/repos/bchiang7/v4')
+      //       .then(response => response.json())
+      //       .then(json => {
+      //         const { stargazers_count, forks_count } = json;
+      //         setGitHubInfo({
+      //           stars: stargazers_count,
+      //           forks: forks_count,
+      //         });
+      //       })
+      //       .catch(e => console.error(e));
+      //   }, []);
+
+        return (
           <div className="App">
             <NavBar/>
             <SplashScreen/>
               <Aboutme/>
          <ImageGrid/>
              <ContactMe/>
-             <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <IconStar />
-                <span>{githubInfo.stars}</span>
-              </span>
-              <span>
-                <IconFork />
-                <span>{githubInfo.forks}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
-        </StyledGitHubLink>
-      </StyledMetadata>
-  );
-
-   {/* {
+            
+              {
                   projects.length ? (
                       projects.map((project, index) => (
                           <div key={project.name}>
@@ -96,7 +74,7 @@ class App extends Component {
                       ))
                   ) : (
                       <div>
-                          For some reason it seems I don't have any projects. 
+                          I don't have any projects
                       </div>
                   )
               }
@@ -105,5 +83,5 @@ class App extends Component {
           </div>
       );
   }
-} */
+}
 export default App;

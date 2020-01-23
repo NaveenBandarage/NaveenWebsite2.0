@@ -5,6 +5,7 @@ const splashScreen = () =>{
 
     return(
         //need to do more work on this make this the actual home screen
+        <div className="view">
 <div className='TypedStrings'>
                 <Typed 
                     strings={["Hey I'm Naveen!", "Hey I'm ナヴィーン", "Hey I'm نفين", "Hey I'm 나빈", "Hey I'm Ναβεεν", "Hey I'm Навеен", "Hey I'm 纳温"]}   
@@ -12,7 +13,6 @@ const splashScreen = () =>{
                     smartBackspace
                     typeSpeed={75}
                     backSpeed={100}
-
                 />
                                     <br/>
 
@@ -44,8 +44,8 @@ const splashScreen = () =>{
 />
 </div>
             </div>
-
-
+<p>Currently a third year software engineering student at the <a href="https://www.wgtn.ac.nz/" target = "_blank">Victoria University of Wellington</a>.</p>
+            </div>
     );
 }
 export default splashScreen

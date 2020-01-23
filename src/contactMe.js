@@ -44,7 +44,9 @@ const ContactMe = ()=>{
   iconSize={'1.5em'}
   iconColor={'#fa163f'} //change colours here
 />
-
+<p>Otherwise feel free to flick me an email.</p>
+                <p><b><a href="mailto:bandaragenaveen@gmail.com">
+bandaragenaveen@gmail.com</a></b></p>
 
 </div>
     );
