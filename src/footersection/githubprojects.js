@@ -13,12 +13,13 @@ const Footer = () => {
       if (process.env.NODE_ENV !== 'production') {
         return;
       }
-      fetch('https://api.github.com/repos/thebanterage/NaveenShopBot')
+      fetch('https://api.github.com/repos/PraveentheMachine/ENGR101-Team-2')
         .then(response => response.json())
         .then(json => {
-          const { stargazers_count } = json;
+          const { stargazers_count, forks_count } = json;
           setGitHubInfo({
             stars: stargazers_count,
+            forks: forks_count,
           });
         })
         .catch(e => console.error(e));
@@ -46,9 +47,13 @@ const Footer = () => {
              <div className="StyledGitHubInfo">
              <span>
                 <IconStar/>
-                <span>{githubInfo.stars}</span>
+                <span>{<a>githubInfo.stars</a>}</span>
               </span>
 
+              <span>
+                <IconFork/>
+                <span>{githubInfo.forks}</span>
+              </span>
             </div>
           )
         }
