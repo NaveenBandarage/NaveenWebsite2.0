@@ -10,6 +10,7 @@ import SplashScreen from './splashscreen'
 import ContactMe from './contactMe'
 import SocialMediaIcons from 'react-social-media-icons';
 import Footer from './footersection/githubprojects';
+import Progress from './progress';
 
 
 // import FooterPart from './footersection/footer';
@@ -30,6 +31,42 @@ class App extends Component {
         .then(projects => this.setState({projects}));
   }
   
+  state = {
+    scrollPostion: 0
+  }
+
+  listenToScrollEvent = () => {
+    document.addEventListener("scroll", () => {
+      requestAnimationFrame(() => {
+        this.calculateScrollDistance();
+      });
+    });
+  }
+
+  calculateScrollDistance = () => {
+    const scrollTop = window.pageYOffset; // how much the user has scrolled by
+    const winHeight = window.innerHeight;
+    const docHeight = this.getDocHeight();
+
+    const totalDocScrollLength = docHeight - winHeight;
+    const scrollPostion = Math.floor(scrollTop / totalDocScrollLength * 100)
+
+    this.setState({
+      scrollPostion,
+    });
+  }
+
+  getDocHeight = () => {
+    return Math.max(
+      document.body.scrollHeight, document.documentElement.scrollHeight,
+      document.body.offsetHeight, document.documentElement.offsetHeight,
+      document.body.clientHeight, document.documentElement.clientHeight
+    );
+  }
+
+  componentDidMount() {
+    this.listenToScrollEvent();
+  }
   
 
   render() {
@@ -59,6 +96,8 @@ class App extends Component {
 
         return (
           <div className="App">
+            <Progress scroll={this.state.scrollPostion + '%'}/>
+
             <NavBar/>
             <SplashScreen/>
               <Aboutme/>

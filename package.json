@@ -13,7 +13,8 @@
     "react-scripts": "3.1.2",
     "react-scroll": "^1.7.14",
     "react-social-media-icons": "^1.1.0",
-    "react-typed": "^1.2.0"
+    "react-typed": "^1.2.0",
+    "styled-components": "^5.0.0"
   },
   "scripts": {
     "dev": "react-scripts start --port $PORT",
