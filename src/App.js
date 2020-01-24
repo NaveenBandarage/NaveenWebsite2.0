@@ -9,6 +9,7 @@ import './imagegrid.css'
 import SplashScreen from './splashscreen'
 import ContactMe from './contactMe'
 import SocialMediaIcons from 'react-social-media-icons';
+import Footer from './footersection/githubprojects';
 
 
 // import FooterPart from './footersection/footer';
@@ -62,9 +63,10 @@ class App extends Component {
             <SplashScreen/>
               <Aboutme/>
          <ImageGrid/>
+<Footer/>
              <ContactMe/>
             
-              {
+              {/* {
                   projects.length ? (
                       projects.map((project, index) => (
                           <div key={project.name}>
@@ -77,7 +79,7 @@ class App extends Component {
                           I don't have any projects
                       </div>
                   )
-              }
+              } */}
 
 
           </div>
