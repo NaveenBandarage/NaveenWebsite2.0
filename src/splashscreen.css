@@ -12,6 +12,34 @@
     flex-wrap: wrap;
     
     }
+    @media screen and (max-width: 500px) {
+      .TypedStrings {
+              overflow-x: hidden !important;
+          
+              max-width: 100% !important;
+              overflow-x: hidden !important;
+          
+          margin-top: 10%;
+        flex: 100%;
+        font-size: 25px;
+
+      }
+      .view{padding-top: 10%}
+    }
+
+    @media screen and (max-width: 800px) {
+      .TypedStrings {
+          
+              overflow-x: hidden !important;
+              font-size: 35px;
+
+              max-width: 100% !important;
+              overflow-x: hidden !important;
+          
+          margin-top: 15%;
+        flex: 100%;
+      }
+    }
      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
      @media screen and (max-width: 600px) {
         .TypedStrings {

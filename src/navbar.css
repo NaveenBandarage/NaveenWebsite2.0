@@ -52,4 +52,9 @@
    .navitems a:active{
        color:  black;
    }
- 
+   @media screen and (max-width: 500px) {
+    .navbar {
+        
+           padding: 0%;
+    }
+  }
