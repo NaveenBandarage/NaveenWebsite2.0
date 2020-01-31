@@ -12,7 +12,7 @@ const aboutMe = () =>{
                 <h2>About me</h2>
  <p>Hello, welcome to my website!</p> 
  <p> I'm Naveen, a third-year software engineering student studying at the Victoria University of Wellington. </p>
- <p> I am highly motivated and finished my first two years with flying colours. </p> I am at this stage looking for a Summer internship to further develop and refine the skills I have.</p>
+ <p> I am highly motivated and finished my first two years with flying colours. </p> <p>I am at this stage looking for a Summer internship to further develop and refine the skills I have.</p>
  <p> My long term aspiration is to eventually work in the Cybersecurity field.</p>  <p>Please note this website is a work in progress so there are some bugs that need to be worked out.</p>
  <p>Here are some of the languages I am working with</p> 
                 <ul className="ColoredList">

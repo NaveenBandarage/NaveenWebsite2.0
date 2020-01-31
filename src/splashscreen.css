@@ -5,8 +5,11 @@
 
 
 }
+.largerText{
+  font-size: 30px;
+}
 .TypedStrings{
-    font-size: 50px;
+    font-size: 100px;
     margin-top: 5%;
     
     flex-wrap: wrap;
@@ -25,6 +28,7 @@
 
       }
       .view{padding-top: 10%}
+      .largerText{font-size: 15px}
     }
 
     @media screen and (max-width: 800px) {
@@ -36,9 +40,11 @@
               max-width: 100% !important;
               overflow-x: hidden !important;
           
-          margin-top: 15%;
+          margin-top: 10%;
         flex: 100%;
       }
+      .largerText{font-size: 20px}
+
     }
      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
      @media screen and (max-width: 600px) {
@@ -49,7 +55,7 @@
                 max-width: 100% !important;
                 overflow-x: hidden !important;
             
-            margin-top: 15%;
+            margin-top: 10%;
           flex: 100%;
         }
       }

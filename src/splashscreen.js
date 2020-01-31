@@ -35,7 +35,7 @@ const splashScreen = () =>{
                 </Typed> */}
                 <div>
 <Typed
-  strings={["I'm a Coder.", "I'm a Otaku.", "I'm a Developer.","I'm a Sports fan.","I'm a Amateur photographer."]}
+  strings={["I'm a Coder.", "I'm a Personal Development Junkie.", "I'm a Shonen Weeb.", "I'm a Developer.","I'm a Sports fan.","I'm a Amateur photographer."]}
   typeSpeed={75}
   backSpeed={100}
   backDelay={1}
@@ -44,7 +44,7 @@ const splashScreen = () =>{
 />
 </div>
             </div>
-<p>Currently a third year software engineering student at the <a href="https://www.wgtn.ac.nz/" target = "_blank">Victoria University of Wellington</a>.</p>
+<p className="largerText">Currently a third year software engineering student at the <a href="https://www.wgtn.ac.nz/" target = "_blank">Victoria University of Wellington</a>.</p>
             </div>
     );
 }
