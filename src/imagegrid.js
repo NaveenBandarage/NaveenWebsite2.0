@@ -11,9 +11,9 @@ const imageGrid = () =>{
     <div class="row">
 
       <h1>Passion || Projects</h1>
-      <p>Here are a collection of some of the things that I am interested and also the things that I am working on:</p>
+      <p>I am currently heavily invested in doing these things when I'm not coding:</p>
       <h2>Film Photography</h2>
-
+{/* 
   <div class="column">
     <img src={image1}width="100%"></img>
     </div>
@@ -27,7 +27,7 @@ const imageGrid = () =>{
   <div className="otherPhotograpy">
 <h2>Photography</h2>
   </div>
-  <div></div>
+  <div></div> */}
 </div> 
     );
 }

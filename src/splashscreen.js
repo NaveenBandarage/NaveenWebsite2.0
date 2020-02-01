@@ -14,7 +14,7 @@ const splashScreen = () =>{
                     typeSpeed={75}
                     backSpeed={100}
                 />
-                                    <br/>
+                        <br/>
 
                 {/* <Typed
                 strings={["Welcome to my Website!"]} 
