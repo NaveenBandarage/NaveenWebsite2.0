@@ -11,6 +11,7 @@ import ContactMe from './contactMe'
 import SocialMediaIcons from 'react-social-media-icons';
 import Footer from './footersection/githubprojects';
 import Progress from './progress';
+import Hamburger from './hamburger';
 
 
 // import FooterPart from './footersection/footer';
@@ -97,7 +98,7 @@ class App extends Component {
         return (
           <div className="App">
             <Progress scroll={this.state.scrollPostion + '%'}/>
-
+            <Hamburger/>
             <NavBar/>
             <SplashScreen/>
               <Aboutme/>

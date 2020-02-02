@@ -6,6 +6,7 @@
     "bootstrap": "^4.4.1",
     "node-fetch": "^2.6.0",
     "react": "^16.10.1",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.10.1",
     "react-fade-in": "^0.1.6",
     "react-loading": "^2.0.3",
