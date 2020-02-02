@@ -12,7 +12,14 @@ const imageGrid = () =>{
 
       <h1>Passion || Projects</h1>
       <p>I am currently heavily invested in doing these things when I'm not coding:</p>
-      <h2>Film Photography</h2>
+      <p>Feel free to explore them</p>
+      <h2>Film Photography</h2> 
+      {/* Got to make a seperate page for these photos*/}
+      <h2>Anime</h2>
+      {/* Make ap page for all the animes I'm watching */}
+      <h2>Digital Photography and Videography</h2>
+      <h2>Reading</h2>
+      {/* Have a page tracking all the books i've read so far. */}
 {/* 
   <div class="column">
     <img src={image1}width="100%"></img>

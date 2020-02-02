@@ -10,11 +10,10 @@ const aboutMe = () =>{
        <div id="AboutMeSection">
                 <h1 id="aboutme">Welcome to my website!</h1>
                 <h2>About me</h2>
- <p>Hello, welcome to my website!</p> 
- <p> I'm Naveen, a third-year software engineering student studying at the Victoria University of Wellington. </p>
- <p> I am highly motivated and finished my first two years with flying colours. </p> <p>I am at this stage looking for a Summer internship to further develop and refine the skills I have.</p>
- <p> My long term aspiration is to eventually work in the Cybersecurity field.</p>  <p>Please note this website is a work in progress so there are some bugs that need to be worked out.</p>
- <p>Here are some of the languages I am working with</p> 
+  <div className="AboutmeParagraph">
+ <p> I'm Naveen, a third-year software engineering student studying at the Victoria University of Wellington. At this stage of my 20 year old life I am looking for a Summer internship to further develop my skills as well as learn new ones!</p>
+ <p>I like to think I'm multilingual, the languages I speak are Java, C, C++, React, Javascript, HTML, CSS, Python and of course English.</p>
+ </div>
                 <ul className="ColoredList">
                    <li>Java</li>
                    <li>C++</li>
