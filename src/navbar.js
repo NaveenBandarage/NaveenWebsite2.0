@@ -2,7 +2,6 @@ import React from 'react'
 import './navbar.css'
 import logo from './naveenlogo.png'
 import PDF from './naveencv_compressed.pdf'
-import { slide as Menu } from 'react-burger-menu'
  
 
 const navbar = () =>{

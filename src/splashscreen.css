@@ -10,7 +10,7 @@
 }
 .TypedStrings{
     font-size: 100px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     
     flex-wrap: wrap;
     
@@ -22,12 +22,12 @@
               max-width: 100% !important;
               overflow-x: hidden !important;
           
-          margin-top: 10%;
+          /* margin-top: 10%; */
         flex: 100%;
         font-size: 25px;
 
       }
-      .view{padding-top: 10%}
+      /* .view{padding-top: 10%} */
       .largerText{font-size: 15px}
     }
 
@@ -40,7 +40,7 @@
               max-width: 100% !important;
               overflow-x: hidden !important;
           
-          margin-top: 10%;
+          /* margin-top: 10%; */
         flex: 100%;
       }
       .largerText{font-size: 20px}
@@ -55,7 +55,7 @@
                 max-width: 100% !important;
                 overflow-x: hidden !important;
             
-            margin-top: 10%;
+            /* margin-top: 10%; */
           flex: 100%;
         }
       }

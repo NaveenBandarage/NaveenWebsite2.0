@@ -97,14 +97,14 @@ class App extends Component {
 
         return (
           <div className="App">
-            <Progress scroll={this.state.scrollPostion + '%'}/>
             <Hamburger/>
-            <NavBar/>
+            <Progress scroll={this.state.scrollPostion + '%'}/>
+            {/* <NavBar/> */}
             <SplashScreen/>
               <Aboutme/>
          <ImageGrid/>
-<Footer/>
-             <ContactMe/>
+            <Footer/>
+             <ContactMe/> */}
             
               {/* {
                   projects.length ? (
