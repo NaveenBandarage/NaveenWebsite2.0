@@ -100,7 +100,7 @@ class App extends Component {
             <Hamburger/>
             <Progress scroll={this.state.scrollPostion + '%'}/>
             {/* <NavBar/> */}
-            <SplashScreen/>
+             <SplashScreen/> 
               <Aboutme/>
          <ImageGrid/>
             
