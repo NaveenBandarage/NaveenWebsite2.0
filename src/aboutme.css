@@ -7,28 +7,31 @@ height: 100vw;
 .AboutmeParagraph{
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    /* 400 is good for phones */
+
+    width: 600px;
     text-align: left
 }
-.ColoredList{
-    list-style: none;
-}
-.ColoredList li{
-padding: 5px;    display: inline;
-    
-}
 
 
+.moreInfo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: left
+
+}
 .education {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: left
+
 }
 
-.wantMoreInformation{
-    text-align: center
-}
 
 .clickhere{
-    text-align: center
+
 }
 .education a{
     color: black;

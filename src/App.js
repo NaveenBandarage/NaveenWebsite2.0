@@ -103,9 +103,10 @@ class App extends Component {
             <SplashScreen/>
               <Aboutme/>
          <ImageGrid/>
-            <Footer/>
-             <ContactMe/> */}
             
+             <ContactMe/> 
+             <Footer/>
+
               {/* {
                   projects.length ? (
                       projects.map((project, index) => (
