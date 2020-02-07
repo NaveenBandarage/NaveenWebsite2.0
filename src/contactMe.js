@@ -43,8 +43,8 @@ const ContactMe = ()=>{
     
     return (
 
-<div>
-    <h1>Contact Me</h1>
+<div id="contactMe">
+    <h1 >Contact Me</h1>
     <p>If you want to find me online these place are where I reside online.</p>
  
     <SocialMediaIcons
