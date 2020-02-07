@@ -8,10 +8,11 @@ const imageGrid = () =>{
 
 
     return(
-    <div class="row">
+      <div id="passionProjects">
+                 <br></br>
 
       <h1>Passion || Projects</h1>
-      <p>I am currently heavily invested in doing these things when I'm not coding:</p>
+      <p>These are the things I'm I am currently heavily invested in doing these things when I'm not coding:</p>
       <p>Feel free to explore them</p>
       <h2>Film Photography</h2> 
       {/* Got to make a seperate page for these photos*/}
@@ -35,7 +36,7 @@ const imageGrid = () =>{
 <h2>Photography</h2>
   </div>
   <div></div> */}
-</div> 
+</div>
     );
 }
 export default imageGrid
