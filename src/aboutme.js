@@ -14,8 +14,13 @@ const aboutMe = () =>{
   <h2>ABOUT ME</h2>
  <p> I'm Naveen, a third-year software engineering student studying at the Victoria University of Wellington. At this stage of my 20 year old life I am looking for a Summer internship to further develop my skills as well as learn new ones!</p>
  <p>I like to think I'm multilingual, the languages I speak are Java, C, C++, React, Javascript, HTML, CSS, Python and of course English. I am trying to learn french as well as Go and Sql on the side.</p>
+ <p>I just finished interning at the Department of Internal Affairs NZ. While I was there I was a cybersecurity consultant intern, in that role I got to do a couple of things:</p>
+ <ul>
+     <li>Develop a comprehensive site security template.</li>
+     <li>Used the Mozilla Observatory Api to develop a automated solution for DIA site analysis.</li>
+     <li>Worked with the team to integrate Devops into their workflow.</li>
+ </ul>
  <br></br>
- </div>
                 
                 <div className="education">
                 <h2>EDUCATION</h2>
@@ -23,8 +28,9 @@ const aboutMe = () =>{
                  <p><a href="http://www.heretaunga.school.nz/" target = "_blank">Heretaunga College</a> - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively)<br></br>February 2013 - December 2017</p>
                  <br></br>
                  <h2 className="wantMoreInformation">WANT MORE INFORMATION?</h2>  
-                 <p className="clickhere">That's just a small sample of what I've studied, learned and my skills. It's 2020 no one has time read everything. Click <a href ={PDF} target = "_blank">here</a> to check out my full resume.</p>       
+                 <p className="clickhere">That's just a small sample of what I've studied, learned and my skills. It's 2020 nobody has time read everything so feel free to click <a href ={PDF} target = "_blank">here</a> to check out my full resume.</p>       
 
+                </div>
                 </div>
                 </div>
 
